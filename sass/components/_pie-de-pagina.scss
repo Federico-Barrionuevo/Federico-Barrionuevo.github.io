@@ -1,0 +1,22 @@
+.pie_de_pagina{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #7c65a9;
+    width: 100%;
+    color: rgb(209, 197, 197);
+    padding: 5px;
+}
+
+    .pie_de_pagina__Acerca_de_Nosotros{
+    padding-right: 50px;
+    list-style-type: none;
+    text-decoration: none;
+    }
+
+    .pie_de_pagina__Pagos_y_Entregas{
+    padding-right: 50px;
+    list-style-type: none;
+    text-decoration: none;
+    }

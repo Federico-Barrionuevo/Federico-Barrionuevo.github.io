@@ -326,6 +326,7 @@ body {
 
 .Descripcion__Descripcion {
   text-align: center;
+  list-style-type: none;
 }
 
 .Descripcion {
@@ -333,4 +334,26 @@ body {
   margin-right: auto;
   text-align: center;
   padding-bottom: 100px;
+}
+
+/***FOOTER**/
+.pie_de_pagina{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: #7c65a9;
+  width: 100%;
+  color: rgb(209, 197, 197);
+  padding: 5px;
+}
+.Acerca_de_Nosotros{
+  padding-right: 50px;
+  list-style-type: none;
+  text-decoration: none;
+}
+.Pagos_y_Entregas{
+  padding-right: 50px;
+  list-style-type: none;
+  text-decoration: none;
 }
