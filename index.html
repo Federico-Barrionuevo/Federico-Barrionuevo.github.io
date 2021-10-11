@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -30,7 +31,7 @@
         </nav>
         <div class="search-bar">
             <div class="search-bar__logo-container">
-                Logo
+                <h1>Connecticus</h1>
             </div>
             <form class="search-bar__form-container">
                 <label class="search-bar__form-label" for="busqueda">Search: </label>
@@ -38,7 +39,7 @@
                 <input class="search-bar__form-submit" type="submit" value=" 🔍">
             </form>
             <div class="search-bar__carrito-container">
-                <a href="carrito.html"> 🛒</a>
+                <a href="carrito.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVBJREFUSEu1le0xBEEQhp+LABEgAkSACMgAESADIkAEyIAIkAERIAJEQL1qWu329sx0qbv+s3V7M/28/bkzFmyzBfsnA9gBHitCWv/9XukBToAL4BY4dJAb4AA4BS5rmWgBloFXQM/dIAqpfwA+gfXynHBaAKk6Bp4AOYtMqdsGrgBFmwasFfW6IHVvFUD3XC2CrrIB0CLVHaVyZBHAcvsFSKFy3DLVSBEuRbUaAp6BjTnNhXxt+TaVitU5Ad5L9KM5SPV1R8BkboYp0iBdA/fA/j8juQP2gCNAgkcRqFgfxbEv/rd773+bHnu/Ys3hHVmh/eRmANZ9L8CmET3AetpPZgYQ3vUAU/HXZkVJBhBGHw3aJI9AD1CtXwSYdEKio6odGAFa34AaqzpDEWC4IRPiR0cmm7e2Tc/KftcCy9o5oHvdbZp1mDrX+yannLQO/QBStFAZr3eyoAAAAABJRU5ErkJggg==" alt="Canasta"/></a>
             </div>
             <div class="menu-toggle">
                 <label class="menu-toggle__label" for="menu">
@@ -49,14 +50,33 @@
             </div>
         </div>
     </header>
+    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/productos/fifa22.piblicidad.PNG" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/productos/reloj.publicidad.PNG" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/productos/banner.publicitario.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <main>
         <section class="section-cards">
-
             <header class="section-cards__header">
-                <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
+                <h1>Listado de Productos</h1>
                 <p>Se encontraron X productos</p>
             </header>
-
             <div class="cards-container">
                 
                 <a class="card" href="carrito.html">
@@ -324,7 +344,6 @@
                 <li><a href="nosotros.html">Políticas de Privacidad</a></li>
                 <li><a href="nosotros.html">Términos y Condiciones</a></li>
                 <li><a href="https://www.argentina.gob.ar/produccion/defensadelconsumidor">Defensa del Consumidor</a></li>
-                <li><a href="nosotros.html">Ayuda</a></li>
                 <li><a href="nosotros.html">Preguntas Frecuentes</a></li>
             </ul>
         </div>
@@ -339,12 +358,17 @@
         </div>
         <div class="Redes_Sociales">
             <h2>Redes Sociales</h2>
-            <ul>
-                <li><a href="">Facebook</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Whatsapp</a></li>
-            </ul>
+            
+            <a href="https://www.facebook.com/">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAL1JREFUSEvtlIEJwjAQRV836AY6ghtUJ9EROoJOoCO4ghvoBDqCbuAGlQ8JHGo9UhJUaKBw0Ob/+4+7VhQ+VWF9fs5gCmyBGaBa5wTM+0ikJJDgGaifxLIZ7IHlm06zGRyBJhgcgBVw94YkBVFnxDbA2hPX+68bCMMkdGo7Fi49cYpi/RLKS2C59xH5iCuHwcKkSU6wC0uli3GCVN+Aa1BrgUuORfvPKbLJxwTu4o+IXESDPvB+FYNE7aXiBg+0MykZNmDKCAAAAABJRU5ErkJggg==" alt="Facebook"/></a>
+
+                <a href="https://www.instagram.com/?hl=es"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAX1JREFUSEvNlU0yBEEQhb+5gZUtToATYGOLA4jgBm6AEwg7O5zAWFrhBDgB4QJ+LkB8olLUVJTumkXHyIiKmumuypf5MvP1iIFtNLB/ZgawCBwCK2l1JfoIuE7TPnG2lsEecJ5O3QPvtYvpvQHMAWvp/z5wkSOUAF54AHS8nZy3lMmMx8AysJoHVAKIrmMvGHmf7QLHwAewAzwDl4As/FgJ8AK41iueBTZCTc6vgU3gBngFFoC7tC/9BfCVinWQAcjxbaXYOjsDPoH5FLnPrMdv4GUGApjyUQZgtFJm2vKsmY10Wq+N7OzUADq6SvyG8/AX3Sb38W5qADNxHmrtLHVvRcb/D2BwiqIlbUE5tzU1f58AT0VLN1GkppRt6sWYgShybdp7AfoGTSmJrMqu8rkAtrSrOsn29hbgJLZIRT7wOu2VihA7I1EZzajFdO68eL9T7KKAIdcCdcl1aFbsvXId0RqJhfaiHdRlKqmBOJTKyoTN7JPZwnvTmcEz+AZJz2cZU1H38wAAAABJRU5ErkJggg==" alt="Instagram"/></a>
+                
+
+                <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbRJREFUSEvNleExBEEQRt9lQATIQAbIgAgQASJABIiADMiAiwARkAEioN5V99aYnZ37dVXXVVNXtzvTX/fr7tkZK7bZiv2zFgL7wDGwG+sbeANegHn8ToLoZbAN3AMK/BRON0JoL7w+AaeAwiObEjDaZ1ggvAWuJkI8B27C+VErm5aAEX5E1IcRea8XDOYB2AJ26kxaAqYsFpesFXR9dlQUeQU8ayaD1QK58TqwWAcPytfoepa4FFBoYbWAvM+AzXCah9xrIUXRs1/gDvBcU8DW08SjlQL/IptQqc+PMpCzm07CgYgsuIjMaplJwJkZ9taIFLCwdk9aZiEeMfXMdr4s0dcCoxTDm86NzN8LIIfQYso8h8z/NorvmzXIItsxdVvmO5250kl2nA59rkgiHtUgmZeHSiQWXwx5TXiF5Lzo1KvloJzo1qBNYSqFDMRlvTIb5+W96MAmIh+OenlJYWVu5GLNbIYjdQZ2z2MU8isOWIuykHnY68OhtMv0M3LuxqlJbgUtOsVEYtQ5jH4T5N+8q2oBmeaw6dD/sjbKbD8j97nLjsmaNUmuxSdz2fXQfb/yDP4AZJloGU7UfncAAAAASUVORK5CYII=" alt="Whatsapp"/></a>
+                
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

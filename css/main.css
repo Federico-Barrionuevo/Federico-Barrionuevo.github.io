@@ -202,9 +202,9 @@ body {
   padding: 1em;
 }
 
-.search-bar__logo-container {
-  background-color: #dfdfd0;
-  flex: 400px;
+.search-bar__logo-container h1{
+  color: #e7497b;
+  
 }
 
 .search-bar__form-container {
@@ -236,6 +236,7 @@ body {
 .search-bar__carrito-container {
   background-color: #f7b2d7;
   flex: 100px;
+  padding-top: 5px;
   text-align: center;
 }
 
@@ -316,24 +317,23 @@ body {
     gap: 2em;
   }
 }
+/***PUBLICIDAD**/
+#publicidad{
+  width: 100%;
+}
 /*** ING ***/
-#carouselExampleIndicators {
-  margin-left: auto;
+#carouselExampleIndicators{
+  float: left;
   margin-right: auto;
   padding: 40px;
   width: 1000px;
 }
 
-.Descripcion__Descripcion {
-  text-align: center;
-  list-style-type: none;
-}
-
-.Descripcion {
+.Descripcion{
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  list-style-type: none; 
 }
 
 /***FOOTER**/
@@ -349,11 +349,16 @@ body {
 }
 .Acerca_de_Nosotros{
   padding-right: 50px;
-  list-style-type: none;
-  text-decoration: none;
 }
 .Pagos_y_Entregas{
   padding-right: 50px;
   list-style-type: none;
   text-decoration: none;
+}
+.pie_de_pagina a{
+  list-style-type: none;
+  text-decoration: none;
+}
+.Redes_Sociales a{
+  padding-right: 15px;
 }

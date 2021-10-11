@@ -2,18 +2,18 @@
 #carouselExampleIndicators{
     margin-left: auto;
     margin-right: auto;
-
     padding: 40px;
     width: 1000px;
+    display: flex;
+    flex-direction: row;
     
 }
-.Descripcion__Descripcion{
-    text-align: center;
-    list-style-type: none;
-}
+
 .Descripcion{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding-bottom: 100px;
+    list-style-type: none;
+    text-align: center; 
 }
