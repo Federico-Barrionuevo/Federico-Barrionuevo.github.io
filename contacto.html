@@ -52,17 +52,19 @@
     <main>
         <h1>Contacto</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure a corporis magnam error libero veniam, laborum nobis earum quaerat rem doloribus? Doloremque soluta reiciendis modi.</p>
-        <section class="formulario_de_contacto">
-            <p>Nombre:</p>
-            <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre" >
-            <p>Apellido</p>
-            <input type="text" name="Apellido" id="Apellido" placeholder="Ingrese su apellido" >
-            <p>E-mail:</p>
-            <input type="email" name="e-mail" id="e-mail" placeholder="Ingrese su e-mail">
-            <p>Mensaje:</p>
-            <textarea name="Comentanos tu opinion" id="Comentanos tu opinion" cols="60" rows="10" placeholder="Comentanos tu opinion"></textarea>
-            <input type="submit" value="Enviar">
-        </section>
+        <div class="formulario_de_contacto">
+            <form action="url-destino-opinion">
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre" minlength="3" required autofocus>
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="Apellido" id="Apellido" placeholder="Ingrese su apellido" minlength="3" required>
+                <label for="e-mail">E-mail:</label>
+                <input type="email" name="e-mail" id="e-mail" placeholder="Ingrese su e-mail" required>
+                <label for="Comentanosopinion">Mensaje:</label>
+                <textarea name="Comentanos tu opinion" id="Comentanosopinion" cols="60" rows="10" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
     </main>
     
     <footer class="pie_de_pagina">
