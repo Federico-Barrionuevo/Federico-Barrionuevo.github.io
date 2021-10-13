@@ -1,3 +1,4 @@
+/***FOOTER**/
 .pie_de_pagina{
     display: flex;
     flex-direction: row;
@@ -7,16 +8,34 @@
     width: 100%;
     color: rgb(209, 197, 197);
     padding: 5px;
-}
-
-    .pie_de_pagina__Acerca_de_Nosotros{
+  }
+  .Acerca_de_Nosotros{
+    padding-right: 50px;
+  }
+  .Pagos_y_Entregas{
     padding-right: 50px;
     list-style-type: none;
     text-decoration: none;
-    }
-
-    .pie_de_pagina__Pagos_y_Entregas{
-    padding-right: 50px;
+  }
+  .pie_de_pagina a{
     list-style-type: none;
     text-decoration: none;
-    }
+    color: black
+  }
+  .Redes_Sociales a{
+    padding-right: 15px;
+  }
+  /**NOSOTROS**/
+  .quienes_somos{
+    background-image: url(../img/productos/fondo-quienes\ somos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .texto_quienes_somos{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 25px;
+  }
+  .texto_quienes_somos p:nth-last-of-type(1){
+    padding-bottom: 140px;
+  }
