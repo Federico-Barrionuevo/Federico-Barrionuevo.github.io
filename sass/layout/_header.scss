@@ -59,8 +59,10 @@
 }
 
 .search-bar__logo-container {
-    background-color: rgb(223, 223, 208);
-    flex:400px;
+    color: #e7497b;
+    width: 400px;
+    height: 20px;
+    text-shadow: 3px 3px 2px #dda1c1;
 }
 
 .search-bar__form-container {
@@ -78,20 +80,21 @@
 }
 
 .search-bar__form-search {
-    background-color: rgb(221, 161, 193);
+    background-color: #dda1c1;
     padding: 5px;
     width: 40%;
 }
 
 .search-bar__form-submit {
-    background-color: rgb(247, 178, 215);
+    background-color: #f7b2d7;
     border: 2px solid #e7497b;
     border-radius: 5px;
 }
 
 .search-bar__carrito-container {
-    background-color: rgb(247, 178, 215);
+    background-color: #f7b2d7;
     flex: 100px;
+    padding-top: 5px;
     text-align: center;
 }
 
@@ -101,7 +104,7 @@
 *********************************/
 .menu-toggle {
     display: none;
-    background-color: rgb(247, 178, 215);
+    background-color: #f7b2d7;
     flex: 0 0 3em;
     position: relative;
     cursor: pointer;

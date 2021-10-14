@@ -52,55 +52,56 @@
     <main>
         <h1>Alta</h1>
         <form action="alta.php">
-            <div>
-                <label for="nombre-alta">Nombre:</label>
-                <input id="nombre-alta" name="nombre" minlength="3">
+            <div class="fomulario-alta">
+                <div>
+                    <label for="nombre-alta">Nombre:</label>
+                    <input id="nombre-alta" name="nombre" minlength="3">
+                </div>
+                <div>
+                    <label for="precio">Precio:</label>
+                    <input type="number" id="precio" name="precio" step="0.5" required>
+                </div>
+                <div>
+                    <label for="stock">Stock:</label>
+                    <input type="number" id="stock" name="stock" required min="1">
+                </div>
+                <div>
+                    <label for="marca">Marca:</label>
+                    <select name="marca" id="marca">
+                        <option value="">Selecion la marca</option>
+                        <option value="1">JBL</option>
+                        <option value="2">Apple</option>
+                        <option value="3">Canon</option>
+                        <option value="4">Google</option>
+                        <option value="5">Lenovo</option>
+                        <option value="6">Samsung</option>
+                        <option value="7">DJI</option>
+                        <option value="8">LG</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="foto">Foto:</label>
+                    <input type="file" id="foto">
+                </div>
+                <div>
+                    <label for="detalles">Detalles:</label>
+                    <textarea name="detaller" id="detalles" cols="60" rows="10" required></textarea>
+                </div>
+                <div>
+                    <label for="envio_sin_cargo">Envio sin cargo</label>
+                    <input type="radio" id="envio_sin_cargo">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+                <div>
+                    <input type="reset" value="Restablecer">
+                </div>
             </div>
-            <div>
-                <label for="precio">Precio</label>
-                <input type="number" id="precio" name="precio" step="0.5" required>
-            </div>
-            <div>
-                <label for="stock">Stock:</label>
-                <input type="number" id="stock" name="stock" required min="1">
-            </div>
-            <div>
-                <label for="marca">marca</label>
-                <select name="marca" id="marca">
-                    <option value="">Selecion la marca</option>
-                    <option value="1">JBL</option>
-                    <option value="2">Apple</option>
-                    <option value="3">Canon</option>
-                    <option value="4">Google</option>
-                    <option value="5">Lenovo</option>
-                    <option value="6">Samsung</option>
-                    <option value="7">DJI</option>
-                    <option value="8">LG</option>
-                </select>
-            </div>
-            <div>
-                <label for="foto">Foto</label>
-                <input type="" id="foto">
-            </div>
-            <div>
-                <label for="detalles">detalles</label>
-                <input type="text" id="detalles">
-            </div>
-            <div>
-                <label for="envio_sin_cargo">Envio sin cargo</label>
-                <input type="text" id="envio_sin_cargo">
-            </div>
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
-            <div>
-                <input type="reset" value="Restablecer">
-            </div>
-
         </form>
     </main>
     <footer class="pie_de_pagina">
-        <div class="Acerca_de_Nosotros">
+        <div>
             <h2>Acerca de Nosotros</h2>
             <ul>
                 <li><a href="nosotros.html">Quiénes Somos</a></li>
